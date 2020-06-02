@@ -34,8 +34,8 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{python3_sitearch}/pygments
-%{python3_sitearch}/Pygments-*.egg-info
+%{python3_sitelib}/pygments
+%{python3_sitelib}/Pygments-*.egg-info
 
 %files -n pygmentize
 %defattr(-,root,root,-)
