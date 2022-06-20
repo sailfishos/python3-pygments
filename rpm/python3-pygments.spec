@@ -3,7 +3,7 @@ Summary:    Generic syntax highlighter written in Python
 Version:    2.6.1
 Release:    1
 License:    BSD
-URL:        https://pygments.org/
+URL:        https://github.com/sailfishos/python3-pygments
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   python3-base
